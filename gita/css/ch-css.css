@@ -1,0 +1,25 @@
+.chapter {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+#chapterNumber{
+   border-radius: 3px;
+   background-color: #ccc;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#fetchChapter{
+    border: none;
+    background-color: rgb(196, 190, 190);
+    width: 100px;
+    height: 20px;
+    color: black;
+    border-radius: 3px;
+    background-color: #007BFF;
+    transition: background-color 0.3s ease-in-out;
+}
+#fetchChapter:hover{
+    background-color: #0056b3;
+}
